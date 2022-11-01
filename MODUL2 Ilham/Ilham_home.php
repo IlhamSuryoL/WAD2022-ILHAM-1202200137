@@ -60,7 +60,7 @@
   <img src="assets/fortuner vrz.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Fortuner</h5>
-    <p class="card-text">Rp 1.550.000/Day</p>
+    <li class="card-text">Rp 1.550.000/Day</li>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">5 Kursi</li>
         <li class="list-group-item">2.755 CC</li>
@@ -76,4 +76,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
-</html>
+<!-- </html> -->

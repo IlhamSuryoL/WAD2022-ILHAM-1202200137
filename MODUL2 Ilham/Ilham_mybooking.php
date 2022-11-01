@@ -71,7 +71,7 @@ foreach($services_price as $price){
             <th>Total Price</th>
         </tr>
     </thead>
-    <tbody>
+    <body>
         <tr>
             <td>   
                 <?php
@@ -122,5 +122,5 @@ foreach($services_price as $price){
                 ?>
             </td>
         </tr>    
-    </tbody>
+    </body>
 </table>
