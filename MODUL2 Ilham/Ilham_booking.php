@@ -44,7 +44,7 @@
                     <input type="text" value="" name="phones" class="form-control" id="Date1">
                 </div>
                 <div class="mb-3">
-                    <ul>Add Service(s)</ul>
+                    <label>Add Service(s)</label>
                     <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="health protocol" name="health" id="flexRadioDefault1" >
                     <label class="form-check-label" for="flexRadioDefault1">
