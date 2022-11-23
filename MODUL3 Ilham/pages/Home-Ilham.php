@@ -6,7 +6,7 @@
             <a class="btn btn-primary btn-lg" href="
                     <?php
                     include 'config/connector.php';
-                    $db = "SELECT * FROM showroom_ilham_table";
+                    $query = "SELECT * FROM showroom_ilham_table"; 
                     $results = mysqli_query($mysqli, $query);
                     if (mysqli_num_rows($results) > 0) {
                         echo 'index.php?page=mycar&message=none';

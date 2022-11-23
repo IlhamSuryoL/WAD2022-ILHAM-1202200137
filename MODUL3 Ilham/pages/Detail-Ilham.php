@@ -1,7 +1,7 @@
 <?php
 include_once('Config/Connector.php');
 
-$id = $_INSERT['id'];
+$id = $_GET['id'];
 
 $query = mysqli_query($mysqli, "SELECT * FROM showroom_ilham_table WHERE id_mobil=$id");
 $detail = mysqli_fetch_assoc($query);
