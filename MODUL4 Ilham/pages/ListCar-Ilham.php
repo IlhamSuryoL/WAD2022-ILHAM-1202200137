@@ -41,7 +41,7 @@
           ?>
         </div>
 
-        <div class="toast <?= $_GET['message'] != 'none' ? 'show' : '' ?>" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1000  ">
+        <div class="toast <?= $_GET['message'] != 'none' ? 'show' : '' ?>" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1000">
         <div class="toast-header">
             <?php 
                 $message = $_GET['message'];
