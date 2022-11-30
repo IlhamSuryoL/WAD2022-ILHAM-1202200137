@@ -1,6 +1,6 @@
 <?php
 
-include 'config/connector.php';
+include 'config/connectorUser.php';
 
 $email = $_COOKIE['email'];
 $query = mysqli_query($koneksi, "SELECT * FROM users_ilham WHERE email = '$email'");

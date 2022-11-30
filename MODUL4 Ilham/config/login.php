@@ -19,7 +19,7 @@
 
         // }
 
-        // setcookie('email', $email, time()+86400*30, '/');
+        setcookie('email', $email, time()+86400*30, '/');
         setcookie('sandi', $sandi, time()+86400*30, '/');
         setcookie('nama', $ambildata['nama'], time()+87400*30, '/');
         header('location: ../index.php');
