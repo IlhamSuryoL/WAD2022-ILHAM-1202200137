@@ -4,7 +4,7 @@
             <h1 class="display-4"><b>Selamat Datang di Showroom Ilham</b> </h1>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
             <a class="btn btn-primary btn-lg" href="
-                    <?php
+                    
                     include 'config/connector.php';
                     $query = "SELECT * FROM showroom_ilham_table"; 
                     $results = mysqli_query($mysqli, $query);
