@@ -16,16 +16,17 @@
     
             <div class="card bg-glass">
               <div class="card-body px-4 py-5 px-md-5">
-                <form action="config/login.php" method="post">
+                <form action="{{ route('login.action') }}" method="post">
+                  @csrf
                   <h1 class="display-4"><b>Login</b> </h1>
                   <!-- Email input -->
                   <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example3">Email</label>
-                    <input type="email" name="email" value="{{ isset($_COOKIE['email']) ? $_COOKIE['email'] : '' }}"  id="form3Example3" class="form-control" required/>  
+                    <input type="email" name="email" value=""  id="form3Example3" class="form-control" required/>  
                   </div>
                   <div class="form-outline mb-4">
                     <label class="form-label" for="form3Example4">Password</label>
-                    <input type="password" id="form3Example4" name="sandi" value="{{ isset($_COOKIE['sandi']) ? $_COOKIE['sandi'] :'' }}" class="form-control" />
+                    <input type="password" id="form3Example4" name="sandi" value="" class="form-control" />
                   </div>
                   <div class="form-check mb-4">
                     <input class="form-check-input me-2" type="checkbox" value=""  name="rememberme" id="form2Example33"  {{ isset($_COOKIE['rememberme']) ? 'checked' : '' }}/>
